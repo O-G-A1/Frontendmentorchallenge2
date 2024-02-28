@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.majordiv{
+    width: 410px;
+    background-color: white;
+    border-radius: 10px;
+    height: 270px;
+    margin-top: 19px;
+    translate: 110%;
+    box-shadow: 10px 10px 22px rgb(235, 241, 255);
+    margin-top: 180px;
+}
+.leftdiv{
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 205px;
+    height: 270px;
+    border-radius: 18px;
+}
+.resulttext{
+    color: azure;
+    text-align: center;
+    position: relative;
+    top: 19px;
+}
+.circlediv{
+    background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+    translate: 46%;
+    position: relative;
+    bottom: -40px;
+}
+.text76100{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    right: -32px;
+    top: 22px;
+}
+.of100{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 12px;
+    position: relative;
+    right: -36px;
+    top: 18px;
+}
+h4{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 54px;
+    translate: 38%;
+}
+.notetext{
+    font-size: 12.5px;
+    position: relative;
+    top: 62px;
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+}
+.summary{
+    color: black;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    translate: 300%;
+}
+.reactiondiv{
+    color:  rgb(255, 87, 87);
+    background-color: rgb(246, 192, 192);
+    width: 160px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+    border-radius: 7px;
+    position: absolute;
+    translate: 142%;
+    top: 55px;
+}
+.entityreact{
+    font-size: 8px;
+}
+.memorydiv{
+    color:  hsl(39, 100%, 56%);
+    background-color: rgb(248, 227, 188);
+    width: 160px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+    border-radius: 7px;
+    position: absolute;
+    translate: 142%;
+    top: 95px;
+}
+.verbaldiv{
+    color: hsl(166, 100%, 37%);
+    background-color: rgb(236, 243, 241);
+    width: 160px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+    border-radius: 7px;
+    position: absolute;
+    translate: 142%;
+    top: 135px;
+}
+.visualdiv{
+    color:  hsl(234, 85%, 45%);
+    background-color: rgb(130, 138, 205);
+    width: 160px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 12px;
+    border-radius: 7px;
+    position: absolute;
+    translate: 142%;
+    top: 175px;
+}
+button{
+    background-color: rgb(48, 59, 90);
+    color: white;
+    width: 160px;
+    padding: 7.5px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    right: -225px;
+    top: -48px
+}
